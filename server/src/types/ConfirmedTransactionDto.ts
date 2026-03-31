@@ -2,7 +2,7 @@ export type ConfirmedTransactionDto = {
     amount?: number;
     amountRaw?: string;
     hash: string;
-    type: 'receive' | 'send' | 'change';
+    type: 'receive' | 'send' | 'change' | 'open' | 'epoch';
     height: number;
     address?: string;
     timestamp: number;

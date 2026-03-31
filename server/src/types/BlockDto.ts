@@ -7,7 +7,7 @@ export type BlockDto = {
     hash: string;
     timestamp: number;
     confirmed: boolean;
-    subtype: 'send' | 'receive' | 'change';
+    subtype: 'send' | 'receive' | 'change' | 'open' | 'epoch';
     sourceAccount: string;
     contents: {
         type: 'state';
