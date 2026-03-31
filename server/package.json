@@ -13,7 +13,7 @@
         "test:unique-known-accounts": "node scripts/verify-unique-banano-known-accounts.js"
     },
     "dependencies": {
-        "@dev-ptera/nano-node-rpc": "^2.0.2",
+        "@jetstream0/nano-node-rpc-patched": "^2.1.1",
         "@types/memory-cache": "^0.2.1",
         "banani-bns": "^0.0.9",
         "banano-unit-converter": "^0.1.0",

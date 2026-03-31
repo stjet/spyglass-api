@@ -1,4 +1,4 @@
-import { DelegatorsCountResponse } from '@dev-ptera/nano-node-rpc';
+import { DelegatorsCountResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const delegatorsCountRpc = async (address): Promise<DelegatorsCountResponse> =>

@@ -1,4 +1,4 @@
-import { BlocksInfoResponse } from '@dev-ptera/nano-node-rpc';
+import { BlocksInfoResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const blocksInfoRpc = async (blocks: string[]): Promise<BlocksInfoResponse> =>

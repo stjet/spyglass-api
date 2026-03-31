@@ -1,4 +1,4 @@
-import { AccountsPendingResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountsPendingResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 import { banToRaw } from 'banano-unit-converter';
 

@@ -1,5 +1,5 @@
 import { NANO_CLIENT } from '@app/config';
-import { ConfirmationQuorumResponse } from '@dev-ptera/nano-node-rpc';
+import { ConfirmationQuorumResponse } from '@jetstream0/nano-node-rpc-patched';
 import { convertFromRaw, LOG_ERR } from '@app/services';
 import { PRWeightRequirementDto } from '@app/types';
 

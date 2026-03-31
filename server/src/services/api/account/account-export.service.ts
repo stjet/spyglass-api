@@ -2,7 +2,7 @@ import { ConfirmedTransactionDto } from '@app/types';
 import { convertToConfirmedTransactionDto, isValidAddress, LOG_ERR } from '@app/services';
 import { accountBlockCountRpc, accountHistoryRpc } from '@app/rpc';
 import { iterateHistory, IterateHistoryConfig, RpcConfirmedTransaction } from './account-history.service';
-import { AccountHistoryResponse } from '@dev-ptera/nano-node-rpc/dist/types/rpc-response';
+import { AccountHistoryResponse } from '@jetstream0/nano-node-rpc-patched/dist/types/rpc-response';
 
 const MAX_TRANSACTION_COUNT = 100_000;
 

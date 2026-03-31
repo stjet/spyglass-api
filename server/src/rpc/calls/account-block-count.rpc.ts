@@ -1,4 +1,4 @@
-import { AccountBlockCountResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountBlockCountResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const accountBlockCountRpc = async (account: string): Promise<AccountBlockCountResponse> =>

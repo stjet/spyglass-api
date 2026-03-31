@@ -1,6 +1,6 @@
 import { accountHistoryRpc } from '@app/rpc';
 import { LOG_ERR, LOG_INFO } from '@app/services';
-import { AccountHistoryResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountHistoryResponse } from '@jetstream0/nano-node-rpc-patched';
 import { performance } from 'perf_hooks';
 
 export type RpcConfirmedTransaction = AccountHistoryResponse['history'][0];

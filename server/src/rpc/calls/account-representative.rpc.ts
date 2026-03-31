@@ -1,4 +1,4 @@
-import { AccountRepresentativeResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountRepresentativeResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const accountRepresentativeRpc = async (addr: string): Promise<AccountRepresentativeResponse> =>

@@ -1,6 +1,6 @@
 import { AppCache, BACKUP_NODES, NANO_CLIENT } from '@app/config';
 import { getRepresentativesPromise, LOG_ERR, LOG_INFO } from '@app/services';
-import * as RPC from '@dev-ptera/nano-node-rpc';
+import * as RPC from '@jetstream0/nano-node-rpc-patched';
 import axios, { AxiosResponse } from 'axios';
 import { representativesOnlineWithoutWeightRpc } from '@app/rpc';
 

@@ -1,4 +1,4 @@
-import { AccountHistoryResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountHistoryResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 // TODO: Pass in a config object, this is too many params

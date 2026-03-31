@@ -1,7 +1,7 @@
 import { blocksInfoRpc } from '@app/rpc';
 import { convertFromRaw, LOG_ERR } from '@app/services';
 import { BlockDto } from '@app/types';
-import { BlocksInfoResponse, BlocksInfoResponseContents } from '@dev-ptera/nano-node-rpc';
+import { BlocksInfoResponse, BlocksInfoResponseContents } from '@jetstream0/nano-node-rpc-patched';
 
 /** Given a list of hashes, returns a BlockDto array. */
 export const blockInfoPromiseV1 = (hashes: string[]): Promise<BlockDto[]> =>

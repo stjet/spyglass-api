@@ -1,4 +1,4 @@
-import { AccountBalanceResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountBalanceResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const accountBalanceRpc = async (address): Promise<AccountBalanceResponse> =>

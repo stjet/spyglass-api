@@ -1,4 +1,4 @@
-import { PeersResponse, PeersResponseDetails } from '@dev-ptera/nano-node-rpc';
+import { PeersResponse, PeersResponseDetails } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export type Peers = PeersResponse<PeersResponseDetails>;

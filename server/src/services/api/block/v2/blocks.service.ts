@@ -1,6 +1,6 @@
 import { blocksInfoRpc } from '@app/rpc';
 import { LOG_ERR } from '@app/services';
-import { BlocksInfoResponse } from '@dev-ptera/nano-node-rpc';
+import { BlocksInfoResponse } from '@jetstream0/nano-node-rpc-patched';
 
 type RequestBody = {
     hashes: string[];

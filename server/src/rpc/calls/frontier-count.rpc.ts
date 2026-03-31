@@ -1,4 +1,4 @@
-import { FrontierCountResponse } from '@dev-ptera/nano-node-rpc';
+import { FrontierCountResponse } from '@jetstream0/nano-node-rpc-patched';
 import { NANO_CLIENT } from '@app/config';
 
 export const frontierCountRpc = async (): Promise<FrontierCountResponse> =>

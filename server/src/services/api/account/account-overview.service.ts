@@ -1,6 +1,6 @@
 import { accountBalanceRpc, accountInfoRpc } from '@app/rpc';
 import { convertFromRaw, getDelegatorsCountPromise, getPRWeightPromise, isValidAddress, LOG_ERR } from '@app/services';
-import { AccountBalanceResponse, AccountInfoResponse, ErrorResponse } from '@dev-ptera/nano-node-rpc';
+import { AccountBalanceResponse, AccountInfoResponse, ErrorResponse } from '@jetstream0/nano-node-rpc-patched';
 import { AccountOverviewDto } from '@app/types';
 import { AppCache } from '@app/config';
 

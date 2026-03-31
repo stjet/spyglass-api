@@ -9,10 +9,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@dev-ptera/nano-node-rpc@^2.0.2":
-  version "2.0.2"
-  resolved "https://registry.npmjs.org/@dev-ptera/nano-node-rpc/-/nano-node-rpc-2.0.2.tgz"
-  integrity sha512-2m4yhZarqtUmvDNKMH+WXWQaTXxWFCUuAKcV4oPv6zPvHnNa84iEFFR574trDo/UxY7oshwRc257SLRC+UdYDA==
+"@jetstream0/nano-node-rpc-patched@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@jetstream0/nano-node-rpc-patched/-/nano-node-rpc-patched-2.1.1.tgz#fbdec5bed4990ea3420db684f5774bf747539f69"
+  integrity sha512-5WpJ7nwBoqTKiddi0o0GM8EVPrtsThS9ur+eneX0n6UjGyBpOPk+iLLHAikCTQZtc9E/ExOtL6+qD79zculvPw==
   dependencies:
     axios "^0.21.1"
 

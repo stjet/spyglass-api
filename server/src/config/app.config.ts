@@ -6,7 +6,7 @@ dotenv.config();
 
 import * as BAN from './banano/app.config';
 import * as NANO from './nano/app.config';
-import { NanoClient } from '@dev-ptera/nano-node-rpc';
+import { NanoClient } from '@jetstream0/nano-node-rpc-patched';
 import { LOG_INFO, readFileContents } from '@app/services';
 
 export const IS_PRODUCTION = process.env.NODE_ENV === 'production';

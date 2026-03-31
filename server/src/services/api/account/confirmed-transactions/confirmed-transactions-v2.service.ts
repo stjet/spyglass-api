@@ -1,7 +1,7 @@
 import { accountBlockCountRpc } from '@app/rpc';
 import { convertFromRaw, isValidAddress, knownSocialMediaAccounts, LOG_ERR } from '@app/services';
 import { ConfirmedTransactionDto } from '@app/types';
-import { AccountHistoryResponse, Subtype } from '@dev-ptera/nano-node-rpc/dist/types/rpc-response';
+import { AccountHistoryResponse, Subtype } from '@jetstream0/nano-node-rpc-patched/dist/types/rpc-response';
 import { iterateHistory, IterateHistoryConfig, RpcConfirmedTransaction } from '../account-history.service';
 import { AppCache } from '@app/config';
 

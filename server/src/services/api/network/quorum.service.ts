@@ -8,7 +8,7 @@ import {
     getSupplyPromise,
     LOG_ERR,
 } from '@app/services';
-import { ConfirmationQuorumResponse } from '@dev-ptera/nano-node-rpc';
+import { ConfirmationQuorumResponse } from '@jetstream0/nano-node-rpc-patched';
 
 /** Returns online / offline representative weights & percentages. */
 const calculateWeightStatus = async (nonBurnSupply: number, onlineWeight: number): Promise<Partial<QuorumDto>> => {

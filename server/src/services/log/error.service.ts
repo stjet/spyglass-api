@@ -1,5 +1,5 @@
 import { AxiosError } from 'axios';
-import { ErrorResponse } from '@dev-ptera/nano-node-rpc';
+import { ErrorResponse } from '@jetstream0/nano-node-rpc-patched';
 
 /** An AxiosError<ErrorResponse> implies there was an issue fetching the data from the nano RPC node.
  *  An ErrorResponse implies there was a response-types from the nano RPC node, but it contained an error.
