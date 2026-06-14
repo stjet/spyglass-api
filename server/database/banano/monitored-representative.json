@@ -90,5 +90,9 @@
     {
         "name": "deftera",
         "url": "https://deftera-banano.duckdns.org/api.php"
+    },
+    {
+        "name": "rsnano.com",
+        "url": "https://banano.rsnano.com/api.php"
     }
 ]
