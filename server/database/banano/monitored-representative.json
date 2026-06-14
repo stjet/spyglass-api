@@ -88,6 +88,10 @@
         "url": "http://banano.lugia.ovh/api.php"
     },
     {
+        "name": "banano.nano.trade",
+        "url": "https://bananode.nano.trade/api.php"
+    },
+    {
         "name": "deftera",
         "url": "https://deftera-banano.duckdns.org/api.php"
     },
